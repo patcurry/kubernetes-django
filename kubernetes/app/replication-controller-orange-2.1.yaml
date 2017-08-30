@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: app-orange
+  name: app-orange-2.1
   labels:
     name: app
 spec:
