@@ -1,4 +1,4 @@
-FROM python:3.5.1
+FROM python:alpine3.6
 
 RUN apt-get -q update && apt-get install -y -q \
   sqlite3 --no-install-recommends \
